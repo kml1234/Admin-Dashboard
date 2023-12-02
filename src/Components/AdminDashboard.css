@@ -1,0 +1,172 @@
+/* File: AdminDashboard.css */
+
+.admin-dashboard {
+    max-width: 100%;
+    margin: 20px 10%;
+    font-family: 'Arial', sans-serif;
+    
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Border color */
+  border-radius: 5px; /* Adjust the border-radius for rounded corners */
+  outline: none;
+  }
+  .search-box {
+    scroll-margin-left: 0px;
+    width: 20%;
+  }
+  .search-box::placeholder {
+    
+    color:cornflowerblue
+  }
+  
+  .selected-row {
+    background-color: #f2f2f2; /* Change this to the desired color for selected rows */
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px; 
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    /* border: 1px solid #ddd; */
+    border-top:1px solid #ddd ;
+    border-bottom:1px solid #ddd ;
+    
+    text-align: left;
+  }
+  
+  th {
+    background-color: #aa94b5;
+  }
+  
+  td input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  th:first-child,
+  td:first-child {
+    width: 40px;
+    border-left: 1px solid #ddd;
+   
+  }
+  
+  th:nth-child(2),
+  td:nth-child(2) {
+    width: 200px;
+  }
+  
+  th:nth-child(5),
+  td:nth-child(5) {
+    width: 200px;
+    border-right: 1px solid #ddd;
+  }
+  
+  td:last-child button {
+    margin-left: 5px;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+  }
+  
+  .pagination button {
+    padding: 8px;
+    margin: 0 3px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  
+  .pagination button.active {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .delete-selected {
+    padding: 8px;
+    background-color: #ff5252;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .delete-selected:hover {
+    background-color: #ff1a1a;
+  }
+  
+  /* Add any additional styles based on your design requirements */
+  
+  .edit-icon {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px; /* Adjust the font size as needed */
+    color: #141517; /* Adjust the color as needed */
+  }
+  
+  /* Optional: Add hover effect */
+  .edit-icon:hover {
+    color: #0056b3; /* Adjust the hover color as needed */
+  }
+
+
+  .delete-selected-button {
+    background-color: #dc3545; /* Adjust the background color as needed */
+    color: #fff; /* Adjust the text color as needed */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Optional: Add hover effect for better user experience */
+  .delete-selected-button:hover {
+    background-color: #bd2130; /* Adjust the hover background color as needed */
+  }
+
+  .bottom-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; /* Adjust the top margin as needed */
+  } 
+
+
+
+.page-button {
+    background-color: #007bff; /* Adjust the background color as needed */
+    color: #645c5c; /* Adjust the text color as needed */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Optional: Add hover effect for better user experience */
+  .page-button:hover {
+    background-color: #6a94c2;/* Adjust the hover background color as needed */
+  }
+
+   /* Your CSS file or style block in React component */
+
+.delete-icon {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px; /* Adjust the font size as needed */
+    color: #dc3545; /* Adjust the color as needed */
+  }
+  
+  /* Optional: Add hover effect */
+  .delete-icon:hover {
+    color: #bd2130; /* Adjust the hover color as needed */
+  }
+
+ 

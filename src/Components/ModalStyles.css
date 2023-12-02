@@ -1,0 +1,57 @@
+/* Style for the modal overlay */
+.ReactModal__Overlay {
+  position: fixed;
+  
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: black;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  /* Style for the modal content */
+  .ReactModal__Content {
+
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+    margin: 5% 35%;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 5px;
+    background-color:rgb(219, 228, 228);
+    outline: none; /* Remove the default focus style */
+  }
+  
+  /* Style for the close button */
+  .ReactModal__Content button {
+    margin: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* Style for the input fields */
+  .ReactModal__Content label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .ReactModal__Content input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+  
+
+
+  
